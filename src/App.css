@@ -1,7 +1,77 @@
-.blackBackground{
-  background-color: black;
-  color: white;
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+}
+.subHeaderSection{
+  margin-left:40px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight:400;
+}
+.subHeaderSection:hover{
+  color: rgba(14, 102, 245, 0.5);
+  
+}
+.homeImg{
+  background-image: url('C:\Users\dater\Downloads/7k9szxao.png');
+  width:100%;
+  height:450px;
+background-size:cover;
+background-repeat: no-repeat;
+
 }
 .text{
-  text-align: center;
+  padding-top:22%;
+  /* padding-bottom: 30px; */
+  margin-left: 80px;
+  
+}
+.homeImgText{
+  font-size: 28px;
+  color: white;
+  font-weight:600;
+  
+}
+.backgroundColor{
+  /* padding:50px 70px; */
+  background-color:#dce3f080;
+}
+.paragraph{
+   padding:50px 70px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.mobileImg{
+  display: flex;
+align-items: center;
+   padding:50px 70px;
+   font-size: 17px;
+   line-height: 30px;
+   margin-right: 20px;
+
+
+}
+.mobileMarket{
+  display: flex;
+align-items: center;
+   padding:50px 70px;
+   font-size: 17px;
+   line-height: 30px;
+   /* margin-left:20px; */
+
+}
+.mobileInfo{
+  margin:0px 30px;
+}
+.satisfiedCustomer{
+  display: flex;
+align-items: center;
+   padding:50px 70px;
+   font-size: 17px;
+   line-height: 30px;
+   margin:  0px 20px;
+
 }
