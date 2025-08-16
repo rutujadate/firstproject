@@ -31,38 +31,86 @@ function App() {
         </div>
         {/* MOBILE IMAGE INFORMATION */}
         <div className='mobileImg'>
-          <div>We specialize in B2B wholesale trading of high-quality second-hand and refurbished mobile phones.
+          <div className='sectionWidth'>We specialize in B2B wholesale trading of high-quality second-hand and refurbished mobile phones.
             Since our inception, we've been committed to delivering reliable, affordable, and premium-grade devices to retailers,
             resellers, and bulk buyers across India.
           </div>
-          <div>
-            <img src="https://3extent.vercel.app/Assets/home2.webp" width="700px" />
+          <div className='sectionWidth'>
+            <img src="https://3extent.vercel.app/Assets/home2.webp" width="700px" className='imgBorder' />
           </div>
+        </div>
+        {/* MOBILE MARKET AND NETWORK */}
+        <div className='mobileMarket'>
+          <div className='sectionWidth'>
+            <img src="https://3extent.vercel.app/Assets/home3.webp" width="700px" className='imgBorder' />
           </div>
-          {/* MOBILE MARKET AND NETWORK */}
-          <div className='mobileMarket'>
-            <div>
-              <img src="https://3extent.vercel.app/Assets/home3.webp" width="700px" />
-            </div>
-            <div className='mobileInfo'>With a deep understanding of the mobile market and strong supplier networks, we ensure that every device we sell
-              is thoroughly tested, quality-checked, and competitively priced. Our goal is to help our clients maximize their
-              margins while giving customers access to the latest smartphones at the best value.
-            </div>
+          <div className='sectionWidth'>With a deep understanding of the mobile market and strong supplier networks, we ensure that every device we sell
+            is thoroughly tested, quality-checked, and competitively priced. Our goal is to help our clients maximize their
+            margins while giving customers access to the latest smartphones at the best value.
           </div>
-          {/* REPUTATION FOR TRUST,TRANSPARENCY */}
-          <div className='satisfiedCustomer'>
-            <div>
-              In just a short span, we've built a reputation for trust, transparency, and timely delivery, selling thousands
-               of units and serving a growing network of satisfied partners. Whether you are a local shop owner or a large-scale 
-               distributor, we provide the products and service you can depend on.
+        </div>
+        {/* REPUTATION FOR TRUST,TRANSPARENCY */}
+        <div className='satisfiedCustomer'>
+          <div className='sectionWidth'>
+            In just a short span, we've built a reputation for trust, transparency, and timely delivery, selling thousands
+            of units and serving a growing network of satisfied partners. Whether you are a local shop owner or a large-scale
+            distributor, we provide the products and service you can depend on.
 
+          </div>
+          <div className='sectionWidth'>
+            <img src="https://3extent.vercel.app/Assets/home4.webp" width="700px" className='imgBorder' />
+          </div>
+        </div>
+        {/* PARTNER WITH US */}
+        <div className='partnerWithUsBox'>
+          <div className='partnerWithUs'>Partner With Us</div>
+          <div className='partnerWithUsPara'>Looking to stock up on reliable smartphones for resale? Partner with <strong className='extent'>3_EXTENT Pvt. Ltd.</strong> and get access to a
+            consistent, profitable, and growing supply chain.
+          </div>
+        </div>
+        {/* ABOUT US */}
+        <div>
+          <div className='aboutUs'>About Us</div>
+          <div className='aboutUsBox'>
+            {/* CEO .... */}
+            <div className='founderBorder'>
+              <div>
+                <img src="https://3extent.vercel.app/Assets/CEO.jpeg" className='founderImage' />
+              </div>
+              <div className='founderText'>FOUNDER, Chief Executive Officer (CEO)</div>
+              <div className='founderName'>Hrushikesh Tangadkar</div>
             </div>
-            <div>
-              <img src="https://3extent.vercel.app/Assets/home4.webp" width="700px"/>
+            {/* CTO.... */}
+            <div className='founderBorder'>
+              <div>
+                <img src="https://3extent.vercel.app/Assets/CTO.jpg" className='founderImage' />
+              </div>
+              <div className='founderText'>FOUNDER, Chief Technology Officer (CTO)</div>
+              <div className='founderName'>Dipak Dhawade</div>
+            </div>
+            <div className='founderBorder'>
+              <div>
+                <img src="https://3extent.vercel.app/Assets/CGO.jpeg" className='founderImage' />
+              </div>
+              <div className='founderText'>FOUNDER, Chief Growth Officer (CGO)</div>
+              <div className='founderName'>Vinod Gade
+              </div>
             </div>
           </div>
+        </div>
+        {/* Mission and Values -- */}
+        <div className='ourMissonBorder'>
+          <div className='ourMission'>Our Mission</div>
+          <div className='ourMissionInfo'>To become India’s most trusted wholesale partner for second-hand and refurbished mobiles by consistently
+             delivering quality, value, and customer satisfaction.
+             </div>
+             <div>Our Values</div>
+             <div><strong>Quality First – </strong>Every device is tested for performance and reliability.</div>
+             <div><strong>Integrity in Business –</strong> We believe in honest pricing and transparent deals.</div>
+             <div><strong>Partnership Focused –</strong> Your success is our success.</div>
+        </div>
       </div>
-    </div>
+    </div >
 
 
   )

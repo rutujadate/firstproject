@@ -23,7 +23,7 @@ background-repeat: no-repeat;
 
 }
 .text{
-  padding-top:22%;
+  padding-top:21%;
   /* padding-bottom: 30px; */
   margin-left: 80px;
   
@@ -44,34 +44,141 @@ background-repeat: no-repeat;
   font-weight: 600;
   line-height: 30px;
 }
+.sectionWidth{
+  width:50%;
+}
 .mobileImg{
   display: flex;
 align-items: center;
-   padding:50px 70px;
-   font-size: 17px;
+   padding:30px 70px;
+   font-size: 18px;
    line-height: 30px;
-   margin-right: 20px;
+   /* margin-right: 20px; */
+   gap: 15px;
 
 
 }
 .mobileMarket{
   display: flex;
 align-items: center;
-   padding:50px 70px;
+   padding:20px 70px;
    font-size: 17px;
    line-height: 30px;
    /* margin-left:20px; */
+   gap:15px;
 
-}
-.mobileInfo{
-  margin:0px 30px;
 }
 .satisfiedCustomer{
   display: flex;
 align-items: center;
-   padding:50px 70px;
-   font-size: 17px;
+   padding:20px 70px;
+   font-size: 19px;
    line-height: 30px;
-   margin:  0px 20px;
+   /* margin-right:20px; */
+   gap:15px;
 
+}
+.imgBorder{
+  border-radius: 10px;
+}
+.partnerWithUsBox{
+  border:none;
+  border-radius: 10px;
+  background-color: white;
+  /* margin:20px 90px; */
+  width:85%;
+  margin:auto;
+  margin-top: 20px;
+  padding:10px 0px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+
+}
+.partnerWithUs{
+  color: rgb(31 41 55 );
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding:20px 0px;
+}
+.partnerWithUsPara{
+  text-align: center;
+  font-size: 20px;
+  padding:0px 40px;
+  margin-bottom: 30px;
+}
+.extent{
+  color: rgb(75 85 99);
+}
+/* About us */
+.aboutUs{
+  color:rgb(31 41 55);
+  font-size:30px;
+  text-align: center;
+  padding:30px 0px;
+}
+.aboutUsBox{
+  width:80%;
+  margin: auto;
+  display:flex;
+  /* gap:80px; */
+  justify-content: space-between;
+}
+.founderBorder{
+  border:none;
+  width:30%;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+
+
+}
+.founderImage{
+border-radius: 2000px;
+width:200px;
+height:200px;
+margin-top: 20px;
+
+}
+.founderText{
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  padding:0px 20px;
+}
+.founderName{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ourMissonBorder{
+  border:none;
+  width:80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+      /* padding: 20px; */
+
+}
+.ourMission{
+  color:rgb(31 41 55);
+  font-weight:600;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-top: 40px;
+
+}
+.ourMissionInfo{
+  /* display:flex; */
+  /* justify-content: center; */
+  margin-bottom: 30px;
+  font-size: 18px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
