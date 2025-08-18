@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+// import "font-awesome-sprockets";
+// import "font-awesome";
+
 import './App.css';
 
 function App() {
@@ -88,6 +91,7 @@ function App() {
               <div className='founderText'>FOUNDER, Chief Technology Officer (CTO)</div>
               <div className='founderName'>Dipak Dhawade</div>
             </div>
+            {/* CGO */}
             <div className='founderBorder'>
               <div>
                 <img src="https://3extent.vercel.app/Assets/CGO.jpeg" className='founderImage' />
@@ -102,12 +106,57 @@ function App() {
         <div className='ourMissonBorder'>
           <div className='ourMission'>Our Mission</div>
           <div className='ourMissionInfo'>To become India’s most trusted wholesale partner for second-hand and refurbished mobiles by consistently
-             delivering quality, value, and customer satisfaction.
-             </div>
-             <div>Our Values</div>
-             <div><strong>Quality First – </strong>Every device is tested for performance and reliability.</div>
-             <div><strong>Integrity in Business –</strong> We believe in honest pricing and transparent deals.</div>
-             <div><strong>Partnership Focused –</strong> Your success is our success.</div>
+            delivering quality, value, and customer satisfaction.
+          </div>
+          {/* Our Values */}
+          <div className='ourValues'>Our Values</div>
+          <div className='values'>
+            <div className='qualityFirst'><strong className='valuesName'>Quality First – </strong>Every device is tested for performance and reliability.</div>
+            <div className='integrityInBusiness'><strong className='valuesName'>Integrity in Business –</strong> We believe in honest pricing and transparent deals.</div>
+            <div className='partnershipFocused'><strong className='valuesName'>Partnership Focused –</strong> Your success is our success.</div>
+          </div>
+        </div>
+        {/*CONTACT US  */}
+        <div className='footerSection'>
+          <div className='contactUs'>Contact Us</div>
+          <div className='contactUsInfo'>We’re here to help you with bulk orders, partnership inquiries, or any questions about our products and services.
+            Get in touch with us through the details below — our team will respond promptly.
+          </div>
+          {/* Separated in THREE Parts */}
+          <div className='footerThreeParts'>
+            {/* Office Address */}
+            <div className='addressBox'>
+              <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i><span className='officeAdress'>Office Address</span>
+              </div>
+              <div className='threeExtent'>3_EXTENT Pvt. Ltd.
+                <div>Shop No. 310, Deluxe Mall,</div>
+                <div>Pimpri, Pune – 411017,</div>
+                 <div>Maharashtra, India</div>
+              </div>
+            </div>
+            {/* Contact Us */}
+            <div className='addressBox'>
+              <div>
+                <i class="fa-regular fa-circle-user"></i><span className='contactUs'>Contact Us</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-phone"></i><span className='contactUsInfo'>+91 9665856368</span>
+              </div>
+              <div>
+                <i class="fa-regular fa-envelope"></i><span className='contactUsInfo'>dipak.dhawade@3extent.com</span>
+              </div>
+            </div>
+            {/* Business Hours */}
+            <div className='addressBox'>
+              <div>
+                <i class="fa-regular fa-clock-nine"></i><span className='businessHours'>Business Hours</span>
+              </div>
+              <div className='timePeriod'>Monday – Saturday: 10:00 AM – 7:00 PM
+                <div>Sunday: Closed</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div >
